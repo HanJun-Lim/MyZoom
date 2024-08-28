@@ -2,9 +2,7 @@
 줌 클론코딩 프로젝트
 <br>
 
-# 개발환경 세팅
-
-## 서버 Setup
+## 개발 환경 세팅
 사용 IDE: Visual Studio Code
 
 1. Node.JS 설치   
@@ -17,5 +15,7 @@
    - npm i express
 5. Pug 설치
    - npm i pug
-6. 실행 테스트
+6. WebSockets 설치
+   - npm i ws
+## 실행 테스트
    - npm run dev
