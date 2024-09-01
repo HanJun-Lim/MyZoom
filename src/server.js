@@ -74,29 +74,4 @@ wsServer.on("connection", socket => {
     socket.on("nickname", nickname => (socket["nickname"] = nickname));
 });
 
-/*
-const wss = new WebSocket.Server({server});     // wss 서버
-
-const sockets = [];
-
-wss.on("connection", (socket) => {
-    sockets.push(socket);
-    socket["nickname"] = "Anon";
-    console.log("Connected to Browser");
-    socket.on("close", () => console.log("Disconnected from Browser"));
-    socket.on("message", (msg) => {
-        const message = JSON.parse(msg);
-
-        switch(message.type) {
-            case "new_message":
-                sockets.forEach(aSocket => aSocket.send(`${socket.nickname}: ${message.payload}`));
-                break;
-            case "nickname":
-                socket["nickname"] = message.payload;
-                break;
-        }
-    });
-});
-*/
-
 httpServer.listen(3000, handleListen);      // 동일한 포트에서 양 서버 지원
