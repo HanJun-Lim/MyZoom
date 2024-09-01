@@ -2,9 +2,7 @@
 줌 클론코딩 프로젝트
 <br>
 
-# 개발환경 세팅
-
-## 서버 Setup
+## 개발 환경 세팅
 사용 IDE: Visual Studio Code
 
 1. Node.JS 설치   
@@ -17,5 +15,14 @@
    - npm i express
 5. Pug 설치
    - npm i pug
-6. 실행 테스트
-   - npm run dev
+6. Socket.IO 설치
+   - npm i socket.io 
+
+## 실행 테스트
+   - 서버 실행
+      - npm run dev
+   - 서버 Admin 페이지
+      1. npm i @socket.io/admin-ui (터미널에서 설치)
+      2. https://admin.socket.io 접속 후   
+         Server URL: http://localhost:3000   
+         Admin namespace: /admin
