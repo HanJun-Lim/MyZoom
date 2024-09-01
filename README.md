@@ -17,5 +17,12 @@
    - npm i pug
 6. Socket.IO 설치
    - npm i socket.io 
+
 ## 실행 테스트
-   - npm run dev
+   - 서버 실행
+      - npm run dev
+   - 서버 Admin 페이지
+      1. npm i @socket.io/admin-ui (터미널에서 설치)
+      2. https://admin.socket.io 접속 후   
+         Server URL: http://localhost:3000   
+         Admin namespace: /admin
