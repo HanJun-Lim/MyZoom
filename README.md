@@ -15,7 +15,7 @@
    - npm i express
 5. Pug 설치
    - npm i pug
-6. WebSockets 설치
-   - npm i ws
+6. Socket.IO 설치
+   - npm i socket.io 
 ## 실행 테스트
    - npm run dev
